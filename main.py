@@ -47,7 +47,7 @@ zipimg = "https://i.postimg.cc/C5T2SN20/photo-2025-04-02-18-19-12.jpg"
 
 watermark_text = "𝘽𝙃𝙐𝙈𝙄𝙃𝘼𝙍 🐺"
 credit =("𝗪𝗢𝗟𝗩𝗘𝗦 🐺") 
-OWNER = int(os.environ.get("OWNER",8172163893))
+OWNER = int(os.environ.get("OWNER",8025880585))
 try: 
     ADMINS=[2607963795] 
     for x in (os.environ.get("ADMINS", "8172163893").split()):  
@@ -66,10 +66,10 @@ api_token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNzkxOTMzNDE5NS
 token_cp ='eyJjb3Vyc2VJZCI6IjQ1NjY4NyIsInR1dG9ySWQiOm51bGwsIm9yZ0lkIjo0ODA2MTksImNhdGVnb3J5SWQiOm51bGx9r'
     
 # Define the owner's user ID
-OWNER_ID = 8172163893 # Replace with the actual owner's user ID
+OWNER_ID = 8025880585 # Replace with the actual owner's user ID
 
 # List of sudo users (initially empty or pre-populated)
-SUDO_USERS = [8172163893]
+SUDO_USERS = [8172163893,8025880585]
 
 AUTH_CHANNEL = -1002584206496
 
@@ -1034,7 +1034,7 @@ async def upload(bot: Client, m: Message):
                            f'<blockquote> **🎓 🅑︎ᴀᴛᴄH 🅝︎ᴀⓂ︎E =** **`{b_name}`**</blockquote>\n\n'
                            f'**🏫 🅒︎ᴏᴀᴄʜɪⓃ︎G 🅝︎ᴀⓂ︎Ⓔ︎ =** **{app}**\n\n'
                            f'**⏳ 𝕌ᴘʟᴏᴀᴅɪɴɢ 𝕐ᴏᴜʀ 𝕍ɪᴅᴇᴏ𝕤 Ⓜ︎ᴀʏ 𝕋ᴀᴋᴇ 𝕊ᴏⓂ︎ᴇ 𝕋ɪⓂ︎ᴇ ⏳**\n\n'
-                           f'**╭━━━━━━━━━◆✯◆━━━━━━━━━╮\n☠️ Ⓜ︎🅰︎🅓︎Ⓔ︎ 🅱︎Ⓨ︎ : [{MR}](t.me/XYZOFFICALBOT)\n╰━━━━━━━━━◇✯◇━━━━━━━━━╯**\n\n')
+                           f'**╭━━━━━━━━━◆✯◆━━━━━━━━━╮\n☠️ Ⓜ︎🅰︎🅓︎Ⓔ︎ 🅱︎Ⓨ︎ : [{MR}](t.me/Thebhumihar)\n╰━━━━━━━━━◇✯◇━━━━━━━━━╯**\n\n')
                    prog = await m.reply_text(Show)
                    emoji_message = await show_random_emojis(message)
                    res_file = await helper.download_and_decrypt_video(url, cmd, name, appxkey)  
@@ -1058,7 +1058,7 @@ async def upload(bot: Client, m: Message):
                            f'<blockquote> **🎓 🅑︎ᴀᴛᴄH 🅝︎ᴀⓂ︎E =** **`{b_name}`**</blockquote>\n\n'
                            f'**🏫 🅒︎ᴏᴀᴄʜɪⓃ︎G 🅝︎ᴀⓂ︎Ⓔ︎ =** **{app}**\n\n'
                            f'**⏳ 𝕌ᴘʟᴏᴀᴅɪɴɢ 𝕐ᴏᴜʀ 𝕍ɪᴅᴇᴏ𝕤 Ⓜ︎ᴀʏ 𝕋ᴀᴋᴇ 𝕊ᴏⓂ︎ᴇ 𝕋ɪⓂ︎ᴇ ⏳**\n\n'
-                           f'**╭━━━━━━━━━◆✯◆━━━━━━━━━╮\n☠️ Ⓜ︎🅰︎🅓︎Ⓔ︎ 🅱︎Ⓨ︎ : [{MR}](t.me/XYZOFFICALBOT)\n╰━━━━━━━━━◇✯◇━━━━━━━━━╯**\n\n')
+                           f'**╭━━━━━━━━━◆✯◆━━━━━━━━━╮\n☠️ Ⓜ︎🅰︎🅓︎Ⓔ︎ 🅱︎Ⓨ︎ : [{MR}](t.me/Thebhumihar)\n╰━━━━━━━━━◇✯◇━━━━━━━━━╯**\n\n')
                     prog = await m.reply_text(Show)
                     emoji_message = await show_random_emojis(message)
 
