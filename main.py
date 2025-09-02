@@ -865,7 +865,7 @@ async def upload(bot: Client, m: Message):
                 url = url.split("bcov_auth")[0]+bcov
 
             elif "https://transcoded-videos.classx.co.in/" in url:
-                url = f"https://hls-proxy-jwmi.onrender.com/stream?url={url}"
+                url = f"https://hls-proxy-7x6f.onrender.com/stream?url={url}"
 
             
             elif "tencdn.classplusapp" in url:
