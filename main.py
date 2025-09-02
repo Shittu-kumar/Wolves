@@ -917,7 +917,7 @@ async def upload(bot: Client, m: Message):
 
             try:
                 #BUTTONSZIP = InlineKeyboardMarkup([[InlineKeyboardButton(text="🎥 Stream Video ", url=f"{urlzip}")]])  
-                cc = f'**[ 🎥 Lᴇᴄ ɪᴅ. » {str(count).zfill(3)}]({url})**\n📲 **APP NAME -**  **{app}**📍\n\n**Tɪᴛᴛʟᴇ »**  **{name1} [{res}].mkv**\n\n```BATCH NAME »\n{b_name}\n```\n💎 **Dᴏᴡɴʟᴏᴀᴅᴇᴅ Bʏ »** **{MR}**\n\n'
+                cc = f'**[ 🎥 Lᴇᴄ ɪᴅ. » {str(count).zfill(3)}]**\n📲 **APP NAME -**  **{app}**📍\n\n**Tɪᴛᴛʟᴇ »**  **{name1} [{res}].mkv**\n\n```BATCH NAME »\n{b_name}\n```\n💎 **Dᴏᴡɴʟᴏᴀᴅᴇᴅ Bʏ »** **{MR}**\n\n'
                 cc1 = f'**[ 📁 Pᴅғ ɪᴅ. » {str(count).zfill(3)}]({url})**\n📲 **APP NAME -** **{app}**📍\n\n**Tɪᴛᴛʟᴇ »**  **{name1} [{res}].pdf**\n\n```BATCH NAME »\n{b_name}\n```\n💎 **Dᴏᴡɴʟᴏᴀᴅᴇᴅ Bʏ »** **{MR}**\n\n'
                 cc2 = f'**[ 🎥 Lᴇᴄ ɪᴅ. » {str(count).zfill(3)}]({url})**\n📲 **APP NAME -** **{app}**📍\n\n**Tɪᴛᴛʟᴇ »**  **{name1} [{res}].jpg**\n\n```BATCH NAME »\n{b_name}\n```\n💎 **Dᴏᴡɴʟᴏᴀᴅᴇᴅ Bʏ »** **{MR}**\n\n'
                 ccyt = f'**[ 🎥 Lᴇᴄ ɪᴅ. » {str(count).zfill(3)}]({url})**\n📲 **APP NAME -** **{app}**📍\n\n**Tɪᴛᴛʟᴇ »**  **{name1} [{res}].mkv**\n\n```BATCH NAME »\n{b_name}\n```\n💎 **Dᴏᴡɴʟᴏᴀᴅᴇᴅ Bʏ »** **{MR}**\n\n'
